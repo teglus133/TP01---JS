@@ -12,6 +12,9 @@ function ValidarNota(event) {
         document.getElementById("nota").style.color = "green";
     } else {
         document.getElementById("nota").style.color = "red";
+    } 
+    if (numero = " ") {
+        alert("ERROR, tiene que completar todos los campos")
     }
 }
 
