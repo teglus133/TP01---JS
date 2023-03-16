@@ -7,12 +7,15 @@
     <title>TP01</title>
 </head>
 <body>
-    <input type="text" placeholder="Ingrese su nota de matematica" id="notaMate"size="25">
-    <input type="submit" placeholder="Enviar" onclick="ValidarNota('notaMate')"><br>
-    <input type="text" placeholder="Ingrese su nota de lengua" id="notaLengua"size="25">
-    <input type="submit" placeholder="Enviar" id="lengua" onclick="ValidarNota('notaLengua')"><br>
-    <input type="text" placeholder="Ingrese su nota de EFSI" id="notaEFSI"size="25">
-    <input type="submit" placeholder="Enviar" id="efsi" onclick="ValidarNota('notaEFSI')"><br>
+    <label for="matematica" id="matematica">Matematica:</label><br>
+    <input type="text" placeholder="Ingrese su nota de matematica" id="notaMate"size="34"><br>
+    <label for="lengua" id="lengua">Lengua:</label><br>
+    <input type="text" placeholder="Ingrese su nota de lengua" id="notaLengua"size="34"><br>
+    <label for="EFSI" id="efsi">EFSI:</label><br>
+    <input type="text" placeholder="Ingrese su nota de EFSI" id="notaEFSI"size="34"><br>
+    <button id="boton">Calcular Promedio</button>
+    <button id="boton2">Calcular nota mas alta</button>
+    <div id="boletin"></div>
     <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
